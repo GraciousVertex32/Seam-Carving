@@ -16,7 +16,7 @@ import java.io.File;
 public class ShowEnergy {
 
     public static void main(String[] args) {
-        Picture picture = new Picture("chameleon.png");
+        Picture picture = new Picture("HJocean.png");
         StdOut.printf("image is %d columns by %d rows\n", picture.width(), picture.height());
         picture.show();        
         SeamCarver sc = new SeamCarver(picture);
